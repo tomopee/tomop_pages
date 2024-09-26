@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンプルなWebサイト</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #ffefd5;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+            color: #4682b4;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #ffefd5;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>私のお菓子作り</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>最近作ったお菓子</h2>
+            <p>ショートケーキ</p>
+        </section>
+        
+        <section>
+            <h2>次作りたいお菓子</h2>
+            <p>プリンタルト</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>お問い合わせ: contact@example.com</p>
+        <p>
+            <a href="https://twitter.com" target="_blank">Twitter</a> | 
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+        </p>
+    </footer>
+</body>
+</html>
